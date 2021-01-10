@@ -1,6 +1,6 @@
 ### Introduction
- 
- Run `npm start` in root directory
+Run `npm start` in each directory
+Run `npm start` in root directory
 
  </br>       
 <img src="demo1.png" width="600">   
