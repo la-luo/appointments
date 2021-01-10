@@ -1,5 +1,5 @@
 ### Introduction
-Run `npm start` in each directory
+Run `npm install` in each directory   
 Run `npm start` in root directory
 
  </br>       
