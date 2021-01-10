@@ -1,0 +1,57 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
+//session form
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+//navbar
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+//Global reset
+* { margin:0; padding:0; box-sizing:border-box; text-decoration: none; }
+
+.App {
+    padding: 10px;
+
+    .container {
+        display: grid;
+        grid-template-columns: 50%, 50%;
+
+    }
+
+    .logo{
+        color: blue;
+    }
+
+    button {
+        width: 200px;
+        border: 0px;
+        height: 30px;
+        font-weight: bold; 
+    }
+
+    button:active {
+        color: #fff;
+        background-color: blue;
+    }
+
+    button:focus {
+        color: #fff;
+        background-color: blue;
+    }
+
+    .table-head{
+        color: #fff;
+        background-color: blue;
+    }
+
+    .nav {
+        grid-column: 1 / 2;
+        
+    }
+
+    .apps {
+        grid-column: 2 / 2;
+
+    }
+
+}
